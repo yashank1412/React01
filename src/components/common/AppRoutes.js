@@ -25,7 +25,7 @@ const AppRoutes = () => {
                     <Routes>
                         <Route path="home" element={<Home />} />
                         <Route path="addEmp" element={<AddEmployee />} />
-                        <Route path="getAllEmp" element={<EmpList />} /> 
+                        <Route path="getAll" element={<EmpList />} /> 
                         <Route path="updateEmp" element={<UpdateEmployee />} />
                         <Route path="emp" element={<Employee />} />
                         <Route path="parent" element={<Parent />} />
